@@ -83,7 +83,7 @@ uni_converter "0xFF 0xAB 0xC0" -Xa
 ## Notes
 
 - **Only one input type can be used per execution**
-- Binary and hex input defaults to 1-byte parsing unless `--bytes` is specified
+- Binary and hex input defaults to 1 constant string unless `--bytes` is specified
 - Invalid combinations of flags will result in an error
 
 ---
