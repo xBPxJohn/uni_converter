@@ -91,10 +91,11 @@ uni_converter "0xFF 0xAB 0xC0" -Xa
 ## Example Usages
 
 ```bash
-uni_converter "A B C" -Axi    # ASCII input to hex and decimal
+uni_converter "A B C" -Axi						# ASCII input to hex and decimal
 uni_converter "10101010 11110000" -Bb           # Binary input to binary output
 uni_converter "0xFA 0xFB" -Xo                   # Hex input to octal
 uni_converter 42 -Ii                            # Integer input to decimal
+uni_converter 0x616263 -Xa --bytes=1			# 1 byte hex to ASCII (output ill be abc)
 ```
 
 ---
