@@ -1,5 +1,4 @@
 
-```markdown
 # uni_converter
 
 `uni_converter` is a command-line tool for converting between different data types: **ASCII**, **Binary**, **Octal**, **Decimal**, and **Hexadecimal**.
@@ -112,5 +111,3 @@ or
 uni_converter --help
 ```
 ```
-
----
