@@ -29,9 +29,10 @@ int main(int argc, char* argv[])
 	std::string sInput = argv[1];
 	size_t nInputSize = sInput.size();
 	std::vector<uint64_t> bytes;
-
-	bytes = ConvertInputToVector(sInput, nInputSize, flags);
 	
+	bytes = ConvertInputToVector(sInput, nInputSize, flags);
+
+	std::cout << (uint32_t) std::to_underlying(MAX::THIRTYTWO_BIT_MAX) << std::endl;
 
 	PrintOutput(bytes, flags);
 
